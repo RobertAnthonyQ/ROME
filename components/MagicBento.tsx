@@ -130,7 +130,7 @@ export const ParticleCard = ({
         opacity: 0,
         duration: 0.3,
         ease: "back.in(1.7)",
-        onComplete: () => particle.parentNode?.removeChild(particle),
+        onComplete: () => { particle.parentNode?.removeChild(particle); },
       });
     });
     particlesRef.current = [];
