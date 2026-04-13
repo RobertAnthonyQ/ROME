@@ -21,12 +21,24 @@
   --color-error: #FF4444;
 }
 
+/* Base */
 body {
   background-color: var(--color-bg-primary);
   color: var(--color-text-primary);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* GSAP pinned sections need proper overflow */
+.pin-spacer {
+  overflow: visible !important;
+}
+
+/* Smooth will-change for GSAP animations */
+[data-gsap] {
+  will-change: transform, opacity;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -36,6 +48,11 @@ body {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Service slides - horizontal scroll helper */
+.service-slide {
+  flex-shrink: 0;
 }

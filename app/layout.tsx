@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ClientLayout } from "@/components/ClientLayout";
+import { ClientLayout } from "@/components/layout/ClientLayout";
 
 export const metadata: Metadata = {
-  title: "ROME",
-  description: "Código puro. Resultados reales.",
+  title: "ROME — Codigo puro. Resultados reales.",
+  description: "Agencia web que construye desde cero. Sin plantillas. Sin atajos. Solo codigo que convierte.",
 };
 
 export default function RootLayout({

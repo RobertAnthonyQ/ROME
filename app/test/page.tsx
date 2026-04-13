@@ -1,6 +1,6 @@
 "use client";
 
-import Grainient from "@/components/Grainient";
+import Grainient from "@/components/shared/Grainient/Grainient";
 
 export default function TestPage() {
   return (

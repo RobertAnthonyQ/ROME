@@ -1,12 +1,11 @@
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { TheProblem } from "@/components/TheProblem";
-import { Numbers } from "@/components/Numbers";
-import { Services } from "@/components/Services";
-import { Process } from "@/components/Process";
-import { Work } from "@/components/Work";
-import { FinalCTA } from "@/components/FinalCTA";
-import { Footer } from "@/components/Footer";
+import { Navbar } from "@/components/layout/Navbar";
+import { Hero } from "@/components/landing/Hero";
+import { TheProblem } from "@/components/landing/TheProblem";
+import { Services } from "@/components/landing/Services";
+import { Process } from "@/components/landing/Process";
+import { Work } from "@/components/landing/Work";
+import { CTA } from "@/components/landing/CTA";
+import { Footer } from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -15,11 +14,10 @@ export default function Home() {
       <main>
         <Hero />
         <TheProblem />
-        <Numbers />
         <Services />
         <Process />
         <Work />
-        <FinalCTA />
+        <CTA />
       </main>
       <Footer />
     </>

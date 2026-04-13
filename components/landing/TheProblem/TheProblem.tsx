@@ -2,7 +2,8 @@
 
 import { useRef } from "react";
 import { motion } from "motion/react";
-import MagicBento, { GlobalSpotlight } from "./MagicBento";
+import MagicBento from "@/components/shared/MagicBento/MagicBento";
+import { GlobalSpotlight } from "@/components/shared/MagicBento/MagicBento";
 
 const GLOW_COLOR = "198, 241, 53";
 
