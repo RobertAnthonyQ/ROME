@@ -87,7 +87,7 @@ export function Navbar() {
         {/* CTA + Mobile toggle */}
         <div className="flex items-center gap-4">
           <a
-            href="https://wa.me/51986060731"
+            href="https://wa.me/51947096592"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:block bg-accent text-[#0A0A0A] font-display font-bold text-[13px] px-5 py-2.5 rounded-none hover:bg-[#D4FF3D] transition-colors"
@@ -152,7 +152,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/51986060731"
+            href="https://wa.me/51947096592"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent text-[#0A0A0A] font-display font-bold text-[14px] px-6 py-3 rounded-none inline-block text-center mt-4"

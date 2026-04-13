@@ -95,7 +95,7 @@ export function Hero() {
                 Ver nuestro trabajo &rarr;
               </button>
               <a
-                href="https://wa.me/51986060731"
+                href="https://wa.me/51947096592"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-border-accent text-accent font-display font-bold text-[14px] px-7 py-3.5 rounded-none hover:bg-accent-muted transition-colors duration-300 inline-block text-center"

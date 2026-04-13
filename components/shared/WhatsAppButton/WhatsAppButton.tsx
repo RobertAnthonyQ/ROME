@@ -1,6 +1,6 @@
 "use client";
 
-const WHATSAPP_NUMBER = "51986060731"; // Perú: 51 + 986060731
+const WHATSAPP_NUMBER = "51947096592"; // Peru: 51 + 947096592
 const WA_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 export function WhatsAppButton() {
